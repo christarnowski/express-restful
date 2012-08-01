@@ -37,7 +37,7 @@ express.application.restful = function(path) {
         }
 
         if ('pre' in handlers.$) {
-            middleware = middleware.concat handlers.$.pre;
+            middleware = middleware.concat(handlers.$.pre);
         }
     }
 
