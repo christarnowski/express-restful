@@ -5,7 +5,7 @@ A framework for writing RESTful APIs with Express.
 
 ```js
 var express = require('express'),
-    restful = require('express-restufl');
+    restful = require('express-restful');
 
 
 app.restful('/v1/posts', {
