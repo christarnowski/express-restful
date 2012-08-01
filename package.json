@@ -1,0 +1,25 @@
+{
+  "name": "express-restful",
+  "description": "A framework for writing RESTful APIs with Express",
+  "version": "1.0.0",
+  "author": "Krzysztof Tarnowski <krzysztof.tarnowski@ymail.com>",
+  "dependencies": {
+    "express": ">= 3.0.0",
+  },
+  "devDependencies": {
+    "should": "*",
+  },
+  "keywords": [
+    "express",
+    "framework",
+    "web",
+    "rest",
+    "restful",
+    "router",
+    "api"
+  ],
+  "publishConfig": { "tag": "1.0.0" },
+  "repository": "git://github.com/ktarnowski/express-restful",
+  "main": "index",
+  "engines": { "node": "*" }
+}
