@@ -36,10 +36,10 @@ Installation
 Features
 --------
 
-    * RESTful resource routing (CRUD + list)
-    * Express-compatible route definitions
-    * Resource association support
-    * Middleware support
+* RESTful resource routing (CRUD + list)
+* Express-compatible route definitions
+* Resource association support
+* Middleware support
 
 Usage
 -----
@@ -49,9 +49,10 @@ app.restful(PATH, [MIDDLEWARE...], HANDLERS)
 ```
 
 Where:
-    * `PATH`: Express resource path (e.g. `/v1/posts`)
-    * `MIDDLEWARE`: An array and/or a list of middleware functions
-    * `HANDLERS`: An object that defines one or more operations on a resource.
+
+* `PATH`: Express resource path (e.g. `/v1/posts`)
+* `MIDDLEWARE`: An array and/or a list of middleware functions
+* `HANDLERS`: An object that defines one or more operations on a resource.
 
 
 ### Applying Middleware
