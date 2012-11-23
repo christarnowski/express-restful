@@ -29,6 +29,10 @@ express.application.restful = function(path) {
         handlers = arguments[argc - 1];
     }
 
+    if (typeof handlers == 'undefined') {
+        throw new Error("Missing handlers definitions for route '" + path + "'");
+    }
+
     var id = 'id';
 
     if ('$' in handlers) {
